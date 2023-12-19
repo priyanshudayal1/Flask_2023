@@ -1,0 +1,12 @@
+The names of the consumers
+rakesh 
+Flipkart Customer
+The ratings
+2
+4
+The comments head
+Not good
+Good quality product
+The full comments
+Its not made by steel .
+Nice product
