@@ -1,0 +1,282 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 692-923-101
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 692-923-101
+INFO:werkzeug: * Detected change in 'c:\\Users\\piyus\\OneDrive\\Desktop\\Flask\\Youtube_Comments\\app,py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:16:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:16:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:16:40] "[33mPOST /search HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:17:49] "GET / HTTP/1.1" 200 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 334480: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.7343), ('French', 0.5712), ('Dutch', 0.5504), ('Spanish', 0.545), ('Czech', 0.5396), ('Italian', 0.5336), ('Norwegian', 0.5277), ('Portuguese', 0.5277), ('German', 0.5189), ('Indonesian', 0.5118), ('Romanian', 0.5015), ('Swedish', 0.4882), ('Finnish', 0.4878), ('Danish', 0.4848), ('Hungarian', 0.4545), ('Slovene', 0.4508), ('Slovak', 0.4474), ('Estonian', 0.4361), ('Croatian', 0.4265), ('Turkish', 0.4123), ('Polish', 0.4118), ('Lithuanian', 0.3835), ('Vietnamese', 0.3812)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'search' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:18:06] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 334547: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.666), ('Indonesian', 0.6106), ('Dutch', 0.5518), ('Norwegian', 0.5257), ('Danish', 0.5198), ('Spanish', 0.5124), ('French', 0.5113), ('Portuguese', 0.504), ('Italian', 0.5036), ('Romanian', 0.486), ('Swedish', 0.4787), ('Finnish', 0.4779), ('Estonian', 0.4642), ('German', 0.4623), ('Czech', 0.4442), ('Polish', 0.4435), ('Slovene', 0.4302), ('Hungarian', 0.4295), ('Turkish', 0.4138), ('Lithuanian', 0.4055), ('Croatian', 0.3968), ('Slovak', 0.3948), ('Vietnamese', 0.306)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    comment_box=yt_html.find_all(div,{"class":"style-scope ytd-item-section-renderer style-scope ytd-item-section-renderer"})
+                                 ^^^
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:20:26] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 333493: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.6013), ('Indonesian', 0.5782), ('Dutch', 0.5224), ('French', 0.4993), ('German', 0.491), ('Portuguese', 0.4763), ('Spanish', 0.4609), ('Italian', 0.4532), ('Danish', 0.4519), ('Norwegian', 0.4513), ('Swedish', 0.4359), ('Hungarian', 0.4295), ('Romanian', 0.4211), ('Estonian', 0.4205), ('Polish', 0.3827), ('Turkish', 0.3763), ('Slovak', 0.3744), ('Finnish', 0.3737), ('Czech', 0.366), ('Croatian', 0.3603), ('Slovene', 0.3519), ('Lithuanian', 0.3135), ('Vietnamese', 0.3122)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    comment_box=yt_html.find_all(div,{"class":"style-scope ytd-item-section-renderer style-scope ytd-item-section-renderer"})
+                                 ^^^
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:20:51] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 333710: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.6261), ('Spanish', 0.5645), ('Indonesian', 0.5628), ('French', 0.5507), ('Dutch', 0.5143), ('Italian', 0.5077), ('Norwegian', 0.5067), ('Romanian', 0.4926), ('Portuguese', 0.4813), ('Swedish', 0.4682), ('German', 0.4536), ('Danish', 0.4505), ('Finnish', 0.4444), ('Slovak', 0.4395), ('Hungarian', 0.4254), ('Czech', 0.4177), ('Turkish', 0.4003), ('Estonian', 0.4003), ('Polish', 0.369), ('Croatian', 0.3539), ('Slovene', 0.3506), ('Vietnamese', 0.3237), ('Lithuanian', 0.3055)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    comment_box=yt_html.find_all(div,{"class":"style-scope ytd-item-section-renderer style-scope ytd-item-section-renderer"})
+                                 ^^^
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:20:56] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:21:22] "GET / HTTP/1.1" 200 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 333379: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.6744), ('Dutch', 0.6595), ('French', 0.6105), ('Indonesian', 0.5779), ('German', 0.551), ('Swedish', 0.5464), ('Norwegian', 0.5368), ('Danish', 0.5297), ('Italian', 0.515), ('Spanish', 0.5138), ('Romanian', 0.485), ('Hungarian', 0.4753), ('Finnish', 0.467), ('Estonian', 0.4657), ('Portuguese', 0.4465), ('Slovak', 0.4452), ('Czech', 0.444), ('Slovene', 0.4369), ('Croatian', 0.4356), ('Polish', 0.403), ('Turkish', 0.3645), ('Lithuanian', 0.3273), ('Vietnamese', 0.3081)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    comment_box=yt_html.find_all(div,{"class":"style-scope ytd-item-section-renderer style-scope ytd-item-section-renderer"})
+                                 ^^^
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:21:34] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 335172: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.6438), ('Indonesian', 0.5751), ('Dutch', 0.5369), ('Spanish', 0.535), ('French', 0.5322), ('German', 0.5026), ('Norwegian', 0.5013), ('Italian', 0.4895), ('Romanian', 0.4728), ('Hungarian', 0.4628), ('Danish', 0.4528), ('Swedish', 0.4445), ('Portuguese', 0.4439), ('Czech', 0.4401), ('Slovak', 0.4324), ('Finnish', 0.4151), ('Slovene', 0.406), ('Croatian', 0.4047), ('Turkish', 0.3997), ('Polish', 0.3812), ('Estonian', 0.3763), ('Vietnamese', 0.3466), ('Lithuanian', 0.2919)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    comment_box=yt_html.find_all(div,{"class":"style-scope ytd-item-section-renderer style-scope ytd-item-section-renderer"})
+                                 ^^^
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:30:43] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:31:09] "GET / HTTP/1.1" 200 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 334426: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.380000 %
+Level 5:charset_normalizer:We detected language [('English', 0.6724), ('Italian', 0.5829), ('Indonesian', 0.5759), ('Dutch', 0.5655), ('French', 0.5631), ('German', 0.5507), ('Spanish', 0.5484), ('Romanian', 0.5344), ('Swedish', 0.4843), ('Danish', 0.4756), ('Portuguese', 0.472), ('Norwegian', 0.466), ('Estonian', 0.4435), ('Czech', 0.4406), ('Slovak', 0.4333), ('Finnish', 0.4178), ('Polish', 0.4177), ('Hungarian', 0.4154), ('Croatian', 0.4145), ('Slovene', 0.4119), ('Turkish', 0.4054), ('Lithuanian', 0.3781), ('Vietnamese', 0.3489)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    comment_box=yt_html.find_all(div,{"class":"style-scope ytd-item-section-renderer style-scope ytd-item-section-renderer"})
+                                 ^^^
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:31:19] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 333611: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.6237), ('Spanish', 0.6043), ('French', 0.5878), ('Indonesian', 0.557), ('Italian', 0.547), ('Dutch', 0.5439), ('Portuguese', 0.5292), ('Norwegian', 0.5216), ('Romanian', 0.5086), ('German', 0.5035), ('Danish', 0.497), ('Swedish', 0.4826), ('Hungarian', 0.4727), ('Finnish', 0.4659), ('Turkish', 0.4421), ('Czech', 0.4329), ('Slovak', 0.431), ('Slovene', 0.4096), ('Croatian', 0.4024), ('Vietnamese', 0.3995), ('Estonian', 0.399), ('Polish', 0.3929), ('Lithuanian', 0.3455)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    yt_html=bs(yt_page,"html.parser")
+                                 ^^^
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:31:52] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Level 5:charset_normalizer:Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0xe2 in position 333295: ordinal not in range(128)
+Level 5:charset_normalizer:Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+Level 5:charset_normalizer:utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+Level 5:charset_normalizer:We detected language [('English', 0.622), ('Indonesian', 0.5722), ('Spanish', 0.5383), ('French', 0.5191), ('Dutch', 0.4579), ('Portuguese', 0.4544), ('Norwegian', 0.4242), ('Italian', 0.423), ('German', 0.4172), ('Romanian', 0.4169), ('Danish', 0.4133), ('Swedish', 0.4121), ('Turkish', 0.4088), ('Hungarian', 0.3977), ('Estonian', 0.3916), ('Czech', 0.3805), ('Finnish', 0.3785), ('Slovak', 0.3676), ('Slovene', 0.3365), ('Polish', 0.3231), ('Croatian', 0.3147), ('Vietnamese', 0.3135), ('Lithuanian', 0.2872)] using utf_8
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+ERROR:app:Exception on /search [POST]
+Traceback (most recent call last):
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\piyus\OneDrive\Desktop\Flask\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\piyus\OneDrive\Desktop\Flask\Youtube_Comments\app.py", line 24, in search
+    yt_page=url_client.read()
+                              
+NameError: name 'div' is not defined. Did you mean: 'dir'?
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:33:53] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:34:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:34:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:34:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:34:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:34:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Dec/2023 20:34:16] "GET / HTTP/1.1" 200 -
